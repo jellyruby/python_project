@@ -1,0 +1,16 @@
+import turtle as t 
+
+
+t.shape("turtle")
+
+t.bgcolor("black")  #문제의 요구사항에 따라 백그라운드 컬러 변경
+t.color("green")    
+t.speed(100)        #문제의 요구사항에 따라 빠르게하기
+
+def draw(x):
+    t.circle(100)
+    t.forward(10)
+
+map( draw() , [0 for x in range(10)])
+    
+
